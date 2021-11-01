@@ -1,5 +1,4 @@
 import { call, put, takeLatest } from "redux-saga/effects";
-import { fetchSuccess } from "../../actions/Homepage";
 
 import { getDatabase, ref, set, onValue, get, child } from "firebase/database";
 
